@@ -1,0 +1,9 @@
+<%= form_for @employee do |f| %>
+  <%= f.collection_select(
+   :first_name, 
+   :last_name, 
+   :alias, 
+   :title, 
+   :office %>
+  <%= f.submit %>
+<% end %>
